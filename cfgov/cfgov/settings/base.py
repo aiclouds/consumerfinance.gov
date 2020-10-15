@@ -775,6 +775,7 @@ FLAGS = {
     "ELASTICSEARCH_DSL_ASK": [("boolean", False)],
     # Used to enable django-elasticsearch-dsl and disable haystack within the regulations app.
     "ELASTICSEARCH_DSL_REGULATIONS": [("boolean", False)],
+    "ELASTICSEARCH_DSL_TDP": [("boolean", False)],
 }
 
 
